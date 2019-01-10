@@ -8,7 +8,7 @@ namespace if_task1
         {
             Console.WriteLine("Käyttäjää pyydetään kirjoittamaan ohjelmalle 1 luku. Ohjelma tulostaa positiivinen, negatiivinen tai nolla");
            
-            Console.WriteLine("Anna joku luku");
+            Console.WriteLine("Anna jokin luku.");
             string userInput = Console.ReadLine();
             int muuttuja = int.Parse(userInput);
 
